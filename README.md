@@ -10,22 +10,20 @@ in my every microservices there are 3 dedicated layers:::
 
 1 --> Repository Layer ::: in this layer where I defined CRUD functionality.
 
+2 --> Service Layer ::: in this layer I defined Specific business logic that required to function business use cases by utilizing Repository Layer.
 
-2 --> Service Layer ::: in this layer I defined Specific business logic that required to function business use cases by utilizing Repository Layer.                
- 
-
-3 --> Controller Layer ::: this is end point layer by which end users can interact to the server in this particular layer all services provided by Service layer are defined.
- 
-
+3 --> Controller Layer ::: this is end point layer by which end users can interact to the server in this particular layer all services provided by 
+                            Service layer are defined.
+                            
                                                   #Authentication Service
 
 
  in auth. service server I implemented 3 functionality {using JWT , bcrypt }
  
-1--> signup :::vendor can signup on this server using {name,email,password} fields plain password of vendor first hashed into some value {using bcrypt} then stored into Database.
-
-2--> signin :::vendor can signin on this server using their {email,password} fields , jsonwebtoken will  be given to those vendors only whoses records already in database else invalid user will be shown
-
+1--> signup :::vendor can signup on this server using {name,email,password} fields plain password of vendor first hashed into some value {using bcrypt} 
+              then stored into Database.
+2--> signin :::vendor can signin on this server using their {email,password} fields , jsonwebtoken will  be given to those vendors only whoses records 
+               already in database else invalid user will be shown.
 3--> isAuthenticated ::: vendor can see whether they are authenticated on the server or not by sending JWT.
 
                                                    #Search Service
