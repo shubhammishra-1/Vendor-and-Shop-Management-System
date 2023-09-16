@@ -24,6 +24,7 @@ in my every microservices there are 3 dedicated layers
               then stored into Database. <br /> 
 2--> signin :::vendor can signin on this server using their {email,password} fields , jsonwebtoken will  be given to those vendors only whoses records 
                already in database else invalid user will be shown.
+               
 3--> isAuthenticated ::: vendor can see whether they are authenticated on the server or not by sending JWT. 
 
                                                    #Search Service 
