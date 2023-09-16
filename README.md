@@ -21,10 +21,10 @@ in my every microservices there are 3 dedicated layers
  in auth. service server I implemented 3 functionality {using JWT , bcrypt }
  
 1--> signup :::vendor can signup on this server using {name,email,password} fields plain password of vendor first hashed into some value {using bcrypt} 
-              then stored into Database.
+              then stored into Database. 
 2--> signin :::vendor can signin on this server using their {email,password} fields , jsonwebtoken will  be given to those vendors only whoses records 
-               already in database else invalid user will be shown.
-3--> isAuthenticated ::: vendor can see whether they are authenticated on the server or not by sending JWT.
+               already in database else invalid user will be shown. 
+3--> isAuthenticated ::: vendor can see whether they are authenticated on the server or not by sending JWT. 
 
                                                    #Search Service
 
