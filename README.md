@@ -1,4 +1,4 @@
-#Build 3 Microservices API
+                                                       #Build 3 Microservices API
 
 1 --> Search Service {PORT=700}
 
@@ -43,14 +43,18 @@ In Search Service server which is running on PORT=700 I implemented again 3 func
                                                    #Shop/Vendor Service
 
 
-In this layer I implemented two models {SHOPS} , {VENDORS}. 
+In this layer I implemented two models {SHOPS} , {VENDORS}.
+
 A vendor can have multiple Shops {as per requirements}
 
 //Services provided by SHOP sub-service server
+
 Implemented CRUD functionality to Shop. {new/old Shop CRUD functionality provided}
 
 //Services provided by Vendor sub-service server
+
 Implemented CRUD functionalty to Vendor 
+
 {new/old vendor can be regiseterd/delete/modification/getDetails}
 
 
