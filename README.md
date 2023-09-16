@@ -1,10 +1,10 @@
 #Build 3 Microservices API
 
-1 --> Search Service {PORT=700} <br />
-2 --> Shop/Vendor management service {PORT=800} <br />
-3 --> Authentication Service {PORT=900} <br />
+#1 --> Search Service {PORT=700} 
+#2 --> Shop/Vendor management service {PORT=800} 
+#3 --> Authentication Service {PORT=900} 
  
-                                                          #MicroServices Architecture
+                                                         #MicroServices Architecture
 
 in my every microservices there are 3 dedicated layers 
 
@@ -18,15 +18,15 @@ in my every microservices there are 3 dedicated layers
                                                   #Authentication Service
 
 
- in auth. service server I implemented 3 functionality {using JWT , bcrypt } <br />
+ in auth. service server I implemented 3 functionality {using JWT , bcrypt }
  
 1--> signup :::vendor can signup on this server using {name,email,password} fields plain password of vendor first hashed into some value {using bcrypt} 
               then stored into Database. <br /> 
 2--> signin :::vendor can signin on this server using their {email,password} fields , jsonwebtoken will  be given to those vendors only whoses records 
-               already in database else invalid user will be shown. <br />
-3--> isAuthenticated ::: vendor can see whether they are authenticated on the server or not by sending JWT. <br />
+               already in database else invalid user will be shown.
+3--> isAuthenticated ::: vendor can see whether they are authenticated on the server or not by sending JWT. 
 
-                                                   #Search Service <br />
+                                                   #Search Service 
 
 In Search Service server which is running on PORT=700 I implemented again 3 functionality
 
