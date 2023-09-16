@@ -54,7 +54,7 @@ Implemented CRUD functionalty to Vendor
 {new/old vendor can be regiseterd/delete/modification/getDetails}
 
 
-  #Tech Stacks
+                                                    #Tech Stacks
 
   Nodejs ,  Javascript  , SQL
 
