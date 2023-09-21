@@ -1,4 +1,4 @@
-                                                       #Build 3 Microservices API
+## Build 3 Microservices API
 
 1 --> Search Service {PORT=700}
 
@@ -6,7 +6,8 @@
 
 3 --> Authentication Service {PORT=900}
  
-                                                         #MicroServices Architecture
+ 
+## MicroServices Architecture
 
 in my every microservices there are 3 dedicated layers 
 
@@ -17,7 +18,7 @@ in my every microservices there are 3 dedicated layers
 3 --> Controller Layer ::: this is end point layer by which end users can interact to the server in this particular layer all services provided by 
                             Service layer are defined. 
                             
-                                                  #Authentication Service
+## Authentication Service
 
 
  in auth. service server I implemented 3 functionality {using JWT , bcrypt }
@@ -30,7 +31,7 @@ in my every microservices there are 3 dedicated layers
                
 3--> isAuthenticated ::: vendor can see whether they are authenticated on the server or not by sending JWT. 
 
-                                                   #Search Service 
+## Search Service 
 
 In Search Service server which is running on PORT=700 I implemented again 3 functionality
 
@@ -40,7 +41,7 @@ In Search Service server which is running on PORT=700 I implemented again 3 func
 
 --> All Shops  ::: users can see all shops of all different locations.
 
-                                                   #Shop/Vendor Service
+## Shop/Vendor Service
 
 
 In this layer I implemented two models {SHOPS} , {VENDORS}.
@@ -58,7 +59,7 @@ Implemented CRUD functionalty to Vendor
 {new/old vendor can be regiseterd/delete/modification/getDetails}
 
 
-                                                    #Tech Stacks
+## Tech Stacks
 
   Nodejs ,  Javascript  , SQL
 
